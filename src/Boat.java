@@ -6,6 +6,6 @@ public class Boat extends Vehicle {
     }
     
     public String doStuff() {
-	return String.format("Je suis %s et je fais glou glou\n", super.getBrand());
+	return String.format("Je suis %s et je fais glou glou !", super.getBrand());
     }
 }

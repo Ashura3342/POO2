@@ -7,6 +7,6 @@ public class Car extends Vehicle {
     }
     
     public String doStuff() {
-	return String.format("Je suis %s et je fais vroum vroum", super.getBrand());
+	return String.format("Je suis %s et je fais vroum vroum !", super.getBrand());
     }
 }
